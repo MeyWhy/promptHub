@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PromptHub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="../dist/output.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-100 p-4 text-sm">
+  <h1 class="text-xl font-bold text-indigo-600 mb-4">PromptHub</h1>
+
+  <textarea id="promptInput" class="w-full p-2 border rounded mb-2" placeholder="Your favorite AI prompt..."></textarea>
+  <button id="saveBtn" class="bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600">
+    Save Prompt
+  </button>
+
+  <div class="mt-4">
+    <h2 class="font-semibold mb-2">Saved Prompts</h2>
+    <ul id="promptList" class="space-y-1"></ul>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
