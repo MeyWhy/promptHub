@@ -16,7 +16,7 @@ function loadPrompts() {
 
     const deleteBtn = document.createElement("button");
     deleteBtn.className = "text-red-500 hover:text-red-700 font-bold";
-    deleteBtn.textContent = "x";
+    deleteBtn.textContent = " x ";
     deleteBtn.addEventListener("click", () => {
       deletePrompt(index);
     });
